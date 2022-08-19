@@ -129,4 +129,37 @@ function classificationofage(age){
 }
 //console.log(classificationofage(15))
 
+function seven(number){
+    if(number>7){
+        return 'number greater than seven'
+    } else if(number=7){
+        return 'number is 7'
+    } else{
+        return 'number smaller than 7'
+    }
+}
+//console.log(seven(7))
 
+function candies(candies, guests){
+    if(candies%guests==0){
+        return true
+    } else{
+        return false
+    }
+}
+//console.log(candies(48, 25))
+
+function triangle(A,B,C){
+if(A+B<=C){
+    return 'its a triangle'
+}else if (A+C<=B){
+    return 'its a triangle'
+} else if (B+C<=A){
+    return ' its a triangle '
+} else {
+    return 'not a triangle'
+}
+
+}
+
+console.log(triangle(2,1,1))

@@ -73,12 +73,52 @@ function leapyear(leap1, leap2) {
 
 function timestable(param1, param2, param3) {
     let count = param1
-    while (count<=param2) {
-        console.log(param3*count)
-        count= count+1
+    while (count <= param2) {
+        console.log(param3 * count)
+        count = count + 1
     }
-    
+
 }
-timestable(1, 12 , 5)
-timestable(1, 12 , 7)
-timestable(1, 12 , 9)
+//timestable(1, 12 , 5)
+//timestable(1, 12 , 7)
+//timestable(1, 12 , 9)
+
+function leapyears(leap1) {
+    let currentYear = leap1
+    let leapYearCount = 0
+    while (leapYearCount <= 20) {
+        if (currentYear % 4 == 0) {
+            console.log(currentYear)
+            leapYearCount = leapYearCount + 1;
+        }
+        currentYear = currentYear + 1
+    }
+
+}
+//leapyears(2014)
+
+function prime(primenumber) {
+    let startingnumber = 2
+
+    while (startingnumber <= primenumber - 1) {
+        if (primenumber % startingnumber == 0) {
+            return false;
+        }
+        startingnumber = startingnumber + 1
+    }
+    return true;
+}
+ console.log(prime(6))
+
+ function printAllPrime(){
+    let number=2;
+    while(number<=100){
+        if (prime(number)){
+            console.log(number);
+        }
+        number = number+1;
+    }
+}
+printAllPrime()
+
+
