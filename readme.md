@@ -11,7 +11,9 @@
 
 # Introduction to Looping
 
+## Tutorials
 ### https://www.khanacademy.org/computing/computer-programming/programming/looping/pt/intro-to-while-loops
+### https://www.youtube.com/watch?v=LuAWFium1nk
 
 1. Write a program to print numbers from 1 to 10
 2. Write a program to print numbers from param1 to param2
