@@ -1,0 +1,111 @@
+<div id="Nothing">
+    <h1>Reservation</h1>
+</div>
+<div id="Nothin"><img src="images/logo.png" height="100px"> </div>
+<style>
+    #menu {
+        display: flex;
+        text-align: center;
+    }
+
+    a {
+        margin: 5px;
+    }
+
+    #Nothing {
+        display: flex;
+
+
+    }
+
+    body {
+        font-family: cursive;
+        background-color: #e20029;
+        color: white;
+    }
+
+    .menu-row>label {
+        width: 120px;
+    }
+
+    .menu-row {
+        display: flex;
+        margin-bottom: 20px;
+
+    }
+
+    #submit {
+        display: flex;
+
+    }
+
+    input[type='reset'] {
+        margin-left: 10px;
+    }
+</style>
+
+<body>
+
+    <a href="index.html">Home </a>
+    <a href="aboutus.html">About us</a>
+    <a href="menu.html">Menu</a>
+    <h4>Your food will be ready in 15-30 minutes</h4>
+
+</body>
+<form action="index.html" class="form">
+
+    <div class="menu class">
+        <div class="menu-row">
+            <label for="Full name "><b>Full name</b></label>
+            <input type="text" id="Full name" />
+        </div>
+        <div class="menu-row">
+            <label for="Phone number"><b>Phone number</b></label>
+            <input type="text" id="Phone number" />
+        </div>
+    </div>
+    <div class="menu-row">
+        <label for="method of eating"><b>Eating Method</b></label>
+        <select>
+            <option value="Dine in">Dine in</option>
+            <option value="Take out">Take out</option>
+            <option value="Delivery">Delivery</option>
+        </select>
+    </div>
+
+    <div class="menu-row">
+        <label for="Number of people"><b>People:</b></label>
+        <select>
+            <option value="None">None for other options</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+
+        </select>
+    </div>
+    <div class="menu-row">
+        <label for="Timings"><b>Timings</b></label>
+        <input type="radio" id="Timings">7:00</radio>
+        <input type="radio" id="Timings">7:15</radio>
+        <input type="radio" id="Timings">7:30</radio>
+        <input type="radio" id="Timings">7:45</radio>
+        <input type="radio" id="Timings">8:00</radio>
+        <input type="radio" id="Timings">8:15</radio>
+        <input type="radio" id="Timings">8:30</radio>
+        <input type="radio" id="Timings">8:45</radio>
+        <input type="radio" id="Timings">9:00</radio>
+    </div>
+    <div class="menu-row">
+        <div id="submit">
+            <input type="submit" value="Reserve">
+            <input type="reset" value="Cancel">
+        </div>
+    </div>
+</form>
